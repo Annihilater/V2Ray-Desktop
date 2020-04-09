@@ -148,9 +148,14 @@ ColumnLayout {
             pSettings += qsTr("Clash: ") + (proxySettings["isV2RayRunning"] ? qsTr("Running") : qsTr("Not running")) + "\n"
             pSettings += qsTr("Proxy Mode: ") + proxySettings["proxyMode"] + "\n"
             if (proxySettings["isV2RayRunning"]) {
-                pSettings += qsTr("Connected Servers: \n")
-                for (var i = 0; i < proxySettings["connectedServers"].length; ++ i) {
-                  pSettings += "- " + proxySettings["connectedServers"][i] + "\n"
+                if (proxySettings["connectedServers"].length === 0) {
+                    pSettings += qsTr("No servers connected.\n")
+                    pSettings += qsTr("Please select servers to connect at servers page.\n")
+                } else {
+                    pSettings += qsTr("Connected Servers: \n")
+                    for (var i = 0; i < proxySettings["connectedServers"].length; ++ i) {
+                      pSettings += "- " + proxySettings["connectedServers"][i] + "\n"
+                    }
                 }
             }
             labelProxySettings.text = pSettings

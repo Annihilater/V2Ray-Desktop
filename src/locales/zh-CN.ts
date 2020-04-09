@@ -58,42 +58,42 @@
         <translation>&apos;HTTP端口&apos;和&apos;SOCKS端口&apos;不能相同。</translation>
     </message>
     <message>
-        <location filename="../appproxy.cpp" line="501"/>
+        <location filename="../appproxy.cpp" line="500"/>
         <source>Failed to get subscription servers from URLs.</source>
         <translation>无法从指定的URL获取订阅服务器。</translation>
     </message>
     <message>
-        <location filename="../appproxy.cpp" line="549"/>
+        <location filename="../appproxy.cpp" line="548"/>
         <source>No supported servers added from the URL.</source>
         <translation>未能从该URL中添加支持的服务器。</translation>
     </message>
     <message>
-        <location filename="../appproxy.cpp" line="557"/>
+        <location filename="../appproxy.cpp" line="556"/>
         <source>The config file does not exist.</source>
         <translation>配置文件不存在。</translation>
     </message>
     <message>
-        <location filename="../appproxy.cpp" line="599"/>
+        <location filename="../appproxy.cpp" line="598"/>
         <source>No supported servers added from the config file.</source>
         <translation>未能从该配置文件中添加支持的服务器。</translation>
     </message>
     <message>
-        <location filename="../appproxy.cpp" line="705"/>
+        <location filename="../appproxy.cpp" line="704"/>
         <source>Failed to check updates</source>
         <translation>检查更新失败</translation>
     </message>
     <message>
-        <location filename="../appproxy.cpp" line="719"/>
+        <location filename="../appproxy.cpp" line="718"/>
         <source>Please upgrade from the package manager</source>
         <translation>请使用包管理器更新</translation>
     </message>
     <message>
-        <location filename="../appproxy.cpp" line="724"/>
+        <location filename="../appproxy.cpp" line="723"/>
         <source>The V2Ray Core in AppImage is not upgradable.</source>
         <translation>无法更新AppImage中的V2Ray Core。</translation>
     </message>
     <message>
-        <location filename="../appproxy.cpp" line="770"/>
+        <location filename="../appproxy.cpp" line="769"/>
         <source>Failed to replace V2Ray Core files.</source>
         <translation>无法替换V2Ray Core的文件。</translation>
     </message>
@@ -211,12 +211,12 @@
         <translation type="vanished">密码</translation>
     </message>
     <message>
-        <location filename="../appproxy.cpp" line="475"/>
+        <location filename="../appproxy.cpp" line="474"/>
         <source>Subscription URL</source>
         <translation>订阅URL</translation>
     </message>
     <message>
-        <location filename="../appproxy.cpp" line="383"/>
+        <location filename="../appproxy.cpp" line="382"/>
         <source>Failed to update GFW List.</source>
         <translation>更新GFW List失败。</translation>
     </message>
