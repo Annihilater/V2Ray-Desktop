@@ -57,7 +57,15 @@ Paste the V2Ray Desktop log below.
 
 ### 环境 Environment
 
-* 操作系统 (the OS for running the client)
+* 操作系统 (Operating System)
+
+* V2Ray Desktop 版本 (V2Ray Desktop Version)
+
+* V2Ray Desktop 安装方式 (The installation of V2Ray Desktop)
+
+- [ ] [Release](https://github.com/Dr-Incognito/V2Ray-Desktop/releases)页面的二进制文件 (The prebuilt binary files from GitHub Release)
+- [ ] 从源代码编译 (Compiled from Source Code)
+- [ ] AUR/Arch Linux CN Repository
 
 ...
 
@@ -73,10 +81,10 @@ Paste the V2Ray Desktop log below.
 2. [Second Step]
 3. ...
 
-**我预期会发生……？**
+**我预期会发生什么？**
 <!-- **Expected behavior:** [What you expected to happen] -->
 
-**实际上发生了什麽？**
+**实际上发生了什么？**
 <!-- **Actual behavior:** [What actually happened] -->
 
 ### 更多信息 More Information
